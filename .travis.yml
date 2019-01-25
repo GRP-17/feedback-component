@@ -12,5 +12,5 @@ deploy:
   api_key:
     secure: jMIi2EiXkax3dEdCB8mG/LzW3WUEpO7x+MG+c1rIKq6Vtt4VFWAnGi+rGhgaX0ZpRLu9PsWGH/ZJcJ8eriIKUuIxyTVMTN0fLj/4L4CvcNISihFBP/MaE8niyXbQl1VzTXD1ED69m0wMUZPr5YuquGiRSWQQwE+s8KU8TY2hXLoWfLWSpD+aQsu941ABcNqhGWSpAYmzFGDjbX1bEpqXP/nO8iUbmnyZGvv0hFAWHBK/lW1rhHK67JIZ7uY1/tOA1aWqLqHfcUK+6SW1nUP5RjXc7O3UCqZQVtTnQyLVzo6RWGA3mLjkufzpBNuLcwKVfs4HN3oYyI0+7aICvqazEm+Gqw0Sd0mKISp6hC5rfgYJYtIonEeSGGXxXL7kFr/jbIN7kA5/Z7Ka5mAx813ECtzz9yzrcYhdHQj+ALvvE99dk4Z8qe1DIadibl21+ynpIzRKzGlNsU2ho8w4iMOODGWuQ1+zsOF7oTRFuRCAHICO2zZUsyXybPJp2D9lGwlaDa4LC24vNDgNtCUA5JfN3S9M6r9vuCjXewmECnJIfKgSil/6vl7XCI6G0IZT3exVw35cHdgslt6IceOba6gMUK8MXe/dwaDoSW4nTS5ueBBVk2CUmn5EQ2x6C82ASI3aVudgFJNOUJdjE+Uf6Idl7AJ75isyYrtHJpFvkdAkFps=
   app:
-    master: feedback-analysis
-    deploying-on-heroku: feedback-analysis
+    master: feedback-component
+    deploying-on-heroku: feedback-component
