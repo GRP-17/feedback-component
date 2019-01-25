@@ -10,7 +10,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure:
+    secure: dUhxYgjw0zWgUcYd4GYYIHgPPBfBNkHv0W2E/M7W+9p+mAQGK5onDBG+zJvzQRpGwdmVX6POPqdQxVJwsOh0u1YcC6EMknb1MTwZYP5Dwm3wEW4c4UQKg/UxqlgNXHMb69GSBAUdYty8yNvLq6PVSnq7VlHsG9J/Y/Ovbi2pkcPAJJvc96gqGUuobntJYYp+mOXYJK4T1ZIaur0Qssu9B8bRIN3yuRra1Vdnwn8VPgBz+VOmSiFmxslli4XbbJ8yxwjrZ4YTWf8opj0XJYQeFy+44ekENNxPaMEJsFsQSbY07SdC6kncWONplPhYLQYYTZbyo/CLEAi4r4lf6iBYUhVKzPdFf1TQfhmvESd3XazQh2SfbW3mMW55ZygongfaApt80PL/pVrQHq51NMP7ousRvbhywE2mpiq7RJqxACylGQ0nuDu1iTbTfGkKTdS+7DFRmMl2sdPPQE6Ld4F1yFF9qJHllzJvSi1686sPYLFqiJo9p1MoAkfCwHf/ykG9rHqaO7/edP+Vtcoe9HlGSyJpr3r+/aQkhKeK6c7CjweGEwDSlx3kCr7XwrNRNAo/dDuDWN6ONwt+7+RW4FqS01HNaGNb5v/RKDiY/rbAwXk7g+nQX5mmak8gO7B4IILpLPKfw9YnNYG9jYPWFiHXNhA4bx7Yn4rQqKuG2bBPcLg=
   app:
     master: feedback-component
     deploying-on-heroku: feedback-component
