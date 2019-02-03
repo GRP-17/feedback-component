@@ -62,6 +62,7 @@ class Feedback extends Component {
       });
     }
   };
+
   render() {
     return (
       <Spin tip="Loading..." spinning={this.state.isLoading} delay={500}>
