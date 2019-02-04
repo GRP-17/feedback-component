@@ -1,16 +1,15 @@
 language: node_js
 node_js:
-- '8'
+  - "8"
 before_script:
-- cd feedback-component-app
-- npm --save install
+  - cd feedback-component-app
+  - npm --save install
 script:
-- npm run build
-- npm test
+  - npm run build
+  - npm test
 deploy:
   provider: heroku
   api_key:
     secure: WNJWl7QQcMUQtMDHfIl2gkTdkgvskVutnVVBFhzLMgSxu/kS49pYv9P/yckizsRz2ocn5otdgJPOHKZ8TQIs3X4h5E4ZQ/nOfz/5JCF6nlSLsweUx6LEjNRqC3/M0UcGytaF8z+TARw3276E211s84BoVghvkGSGJ07H1quHApDi+LfKQXNnuVlEx0BEs6ywUoS71+M6EGuQORn5te/9o4o8WkfVpBphlpZE8LNnKJE9eiuqz8kdFgKLpW6jL5bXeyCq4kH9qfSEMAadx0ANpd1++oIYxRJhqpFd5UlKUE/c9SKWBD86rG+/de1kkaBzkFLthBm98qx1CFxX5Uv8xhEP0KTF8H8AL3SC1lubDtATUUZDYzNsDDZboznBThyyqDGQCGunSujPr02VqSpDod59sFazAx66gyAIPaNJBewdWPXRWyyR/FreP/BqFv81o4FnF0nv/RuhakELXxZFVIZ1LrUBPKI01iue5jx19IQyuQaM2z18xxWa47yisTP6IzYgf58JCWHcoYH77z1dQOdoPlFbYBhKJC81d6lXL4R+BYUwjGY+1qAJK5kpWEpI6ThEAN/LT1yTFg54z8KM5FvofmNe/njj4j3a+BTyqJO0ccqGQauLqApV8FNwjcPb2tyKGGFMw3ObR9DrrLd7JqT7FBFguwzUvOIjjXKAno8=
   app:
     master: feedback-component
-    deploying-on-heroku: feedback-component
