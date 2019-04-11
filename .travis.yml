@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "8"
 before_script:
-  - cd feedback-component-app
+  - cd feedback-component
   - npm --save install
 script:
   - npm run build
