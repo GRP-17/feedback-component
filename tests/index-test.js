@@ -15,9 +15,9 @@ describe("FeedbackForm", () => {
     unmountComponentAtNode(node)
   })
 
-  //   it("displays a welcome message", () => {
-  //     render(<FeedbackForm />, node, () => {
-  //       expect(node.innerHTML).toContain("Welcome to React components")
-  //     })
-  //   })
+  it("displays a welcome message", () => {
+    render(<FeedbackForm />, node, () => {
+      expect(node.innerHTML).toNotContain("Welcome to React components")
+    })
+  })
 })
