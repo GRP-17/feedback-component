@@ -1,7 +1,7 @@
 .DS_Store
-feedback-component/coverage
-feedback-component/dist
-feedback-component/node_modules
-feedback-component/npm-debug.log*
-feedback-component/es
-feedback-component/lib
+coverage
+dist
+node_modules
+npm-debug.log*
+es
+lib
