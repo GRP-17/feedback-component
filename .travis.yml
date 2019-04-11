@@ -7,6 +7,14 @@ before_script:
 script:
   - npm run build
   - npm test
+before_install:
+  - npm install codecov.io coveralls
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+branches:
+  only:
+    - master
 deploy:
   provider: heroku
   api_key:
