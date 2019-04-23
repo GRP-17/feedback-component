@@ -65,7 +65,7 @@ export default class FeedbackForm extends Component {
         },
       })
     } catch (e) {
-      console.error
+      console.error(e)
       message.error(e.toString())
     } finally {
       this.setState({
