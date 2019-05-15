@@ -82,13 +82,19 @@ export default class FeedbackForm extends Component {
         spinning={this.state.isLoading}
         delay={500}
       >
-        <Rate
-          value={this.state.values.rating}
-          onChange={v => {
-            this.handleChange("rating", v)
-          }}
-        />
-        <br />
+        <p style={{
+          textAlign: 'center',
+        }}>
+          <Rate
+            style={{
+              fontSize: 36,
+            }}
+            value={this.state.values.rating}
+            onChange={v => {
+              this.handleChange("rating", v)
+            }}
+          />
+        </p>
         <Input.TextArea
           rows={4}
           placeholder={this.props.textPlaceholder}
@@ -99,10 +105,21 @@ export default class FeedbackForm extends Component {
           }}
         />
         <br />
-        <div>{`${this.state.values.text.length}/${
-          this.props.textMaxLength
-        }`}</div>
-        <Button type="primary" onClick={this.handleSubmit}>
+        <div style={{
+          textAlign: 'right',
+          color: '#aaa',
+          fontSize: 14,
+        }}>
+          {`${this.state.values.text.length}/${
+            this.props.textMaxLength
+          }`}
+        </div>
+        <Button
+          block
+          type="primary"
+          size="large"
+          onClick={this.handleSubmit}
+        >
           Submit
         </Button>
       </Spin>
